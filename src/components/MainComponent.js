@@ -78,10 +78,10 @@ export default class MainComponent extends Component {
                         goToNextSlide={this.goToNextSlide}
                     />
                 </div>
-                <div className="autoplay-checkbox">
-                    <label htmlFor="slide">Slide</label>
+                <h2 className="autoplay-checkbox">
+                    <label htmlFor="slide">Slide </label>
                     <input type="checkbox" name="slide" checked={this.state.startCarousel} onChange={() => this.startCarousel()} />
-                </div>
+                </h2>
             </div>
         )
     }
