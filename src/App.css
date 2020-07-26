@@ -1,7 +1,7 @@
 .carousel-wrapper {
   overflow: hidden;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 5%;
 }
 
 .carousel {
@@ -21,10 +21,10 @@
 
 .backArrow {
 
-  transform: translate(-100%,50%);
+  transform: translate(-100%,45%);
 }
 .nextArrow {
-  transform: translate(100%, 50%);
+  transform: translate(100%, 45%);
 }
 
 .autoplay-checkbox {
